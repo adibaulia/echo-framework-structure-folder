@@ -15,7 +15,7 @@ type (
 )
 
 func init() {
-	if &instance != nil {
+	if instance != nil {
 		return
 	}
 
